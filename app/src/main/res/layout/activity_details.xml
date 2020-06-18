@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/details_title"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/authors" />
+
+        <TextView
+            android:id="@+id/details_authors"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/isbn_ten" />
+
+        <TextView
+            android:id="@+id/isbn_ten"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/isbn_thirteen" />
+
+        <TextView
+            android:id="@+id/isbn_thirteen"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/page_count" />
+
+        <TextView
+            android:id="@+id/page_count"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:text="@string/avg_rating" />
+
+        <TextView
+            android:id="@+id/details_average_rating"
+            style="@style/DetailStyle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorAccentSecondary"
+        android:textSize="18sp" />
+</LinearLayout>

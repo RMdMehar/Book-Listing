@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="app_label"/>
+    <string name="details_activity">Details Activity</string>
+    <string name="search_hint">Search By Topics Or Books</string>
+    <string name="not_available">Not Available For Online Purchase</string>
+    <string name="available">Buy Online</string>
+    <string name="title">Book Title:</string>
+    <string name="authors">Authors:</string>
+    <string name="page_count">No. Of Pages:</string>
+    <string name="isbn_ten">ISBN 10:</string>
+    <string name="isbn_thirteen">ISBN 13:</string>
+    <string name="avg_rating">Average Rating:</string>
+    <string name="no_internet">No Internet Connection!!!</string>
+    <string name="not_found">Books Not Found!!!</string>
+</resources>
